@@ -24,6 +24,27 @@ main{
 margin-left: 20px;
 margin-right: 20px;
 }
+  .container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+font-family: Palatino;
+}
+  .paragraph {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    font-size: 30px;
+font-family: Helvetica;
+}
 h1{
 text-align: left;
 font-size: 50px;
@@ -96,11 +117,11 @@ background-color: #ff0000;
 </ul>
 </nav>
 <main>
-<h3><b><i>About Us</i></b></h3>
-  <img src="https://images.unsplash.com/photo-1527668752968-14dc70a27c95?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height= "500" width="700">
-<h5>This website is the Final Project for Computer Program 3, to be passed to Mr. Rex Madamba.<br>
-We chose Switzerland as the main topic of this website. These are the members who made this website happen:
-</h5>
+  <div class="container">
+    <img src="https://images.unsplash.com/photo-1527668752968-14dc70a27c95?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height= "500" width="700">
+    <div class="centered">About Us</div>
+    <div class="paragraph">This website is the Final Project for Computer Program 3, to be passed to Mr. Rex Madamba.<br>
+We chose Switzerland as the main topic of this website. These are the members who made this website happen:</div>
 <h4> Group 5 Members </h4>
 <p style= "font-family: Cursive; font-size: 50px; text-align: center;"><b>Ignacio, Allen Jelio</b></p>
 <p style= "font-family: Cursive; font-size: 50px; text-align: center;"><b> Zausa, Tyrell </b></p>
